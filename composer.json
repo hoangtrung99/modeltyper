@@ -1,32 +1,32 @@
 {
-    "name": "fumeapp/modeltyper",
-    "description": "Generate TypeScript interfaces from Laravel Models",
-    "type": "library",
-    "require": {
-        "php": "^8.1",
-        "illuminate/support": "8.*|9.*",
-        "vinyvicente/doctrine-point-type": "^2.3"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "kevin olson",
-            "email": "acidjazz@gmail.com"
-        }
-    ],
-  "autoload": {
-      "psr-4": {
-          "FumeApp\\ModelTyper\\": "src/"
-      }
+  "name": "fumeapp/modeltyper",
+  "description": "Generate TypeScript interfaces from Laravel Models",
+  "type": "library",
+  "require": {
+    "php": "^8.1",
+    "illuminate/support": "8.*|9.*",
+    "vinyvicente/doctrine-point-type": "^3"
   },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "FumeApp\\ModelTyper\\ModelTyperServiceProvider"
-            ]
-        }
-    },
-    "require-dev": {
-        "spatie/laravel-ray": "^1.17"
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "kevin olson",
+      "email": "acidjazz@gmail.com"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FumeApp\\ModelTyper\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "FumeApp\\ModelTyper\\ModelTyperServiceProvider"
+      ]
+    }
+  },
+  "require-dev": {
+    "spatie/laravel-ray": "^1.17"
+  }
 }
